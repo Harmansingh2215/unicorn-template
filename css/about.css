@@ -1,0 +1,48 @@
+.about_section {
+  width: 100%;
+  /* background-color: rgba(128, 0, 128, 0.732); */
+  background-color: fef8f8;
+  float: left;
+  /* height: 800px; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0px 0px 20px 0px;
+}
+
+.center-image {
+  /* height: 600px; */
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  background-size: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  /* background-image: url(../images/About-Unicorn.png); */
+}
+
+.about-icon img {
+  margin: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.about_texts {
+  width: 50%;
+  height: auto;
+  /* background-color: aquamarine; */
+  font-style: italic;
+  font-weight: bold;
+  /* font-size: 25px; */
+  /* font-family: Arial, sans-serif; */
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 25px;
+  color: #333333;
+  line-height: 1.5;
+  /* margin: 0;
+  padding: 0; */
+}
