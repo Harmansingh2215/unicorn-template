@@ -1,0 +1,46 @@
+.container-box {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  /* margin: auto; */
+  /* justify-content: center;
+  display: flex; */
+  /* margin-top: 40px; */
+  margin: auto;
+}
+.review-card img {
+  margin: auto;
+  /* margin-top: 40px; */
+  height: 130px;
+}
+.card1 {
+  height: 300px;
+  margin: 2% 4%;
+  background-color: pink;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.card2 {
+  height: 300px;
+  margin: auto;
+  margin: 2% 2%;
+
+  background-color: rgba(128, 0, 128, 0.732);
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.card3 {
+  height: 300px;
+  margin: auto;
+  margin: 2% 5%;
+
+  background-color: pink;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}

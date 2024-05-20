@@ -47,7 +47,7 @@ body {
   overflow-x: hidden;
   /* font-family: "Poppins", sans-serif; */
   font-family: "Simple Brush Script", sans-serif;
-  cursor: url("../images/Logo8.ico"), auto;
+  /* cursor: url("../images/Logo8.ico"), auto; */
   background-color: #fef8f8;
 }
 a {
@@ -1014,8 +1014,9 @@ button {
   color: #e27141;
 }
 .logo img {
-  width: 120px;
+  width: 129px;
   border-radius: 80px;
+  height: 130px;
 }
 .video_image {
   width: 400px;

@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/services.css" />
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- fevicon -->
@@ -45,13 +46,13 @@
 
   <body>
     <!-- header section start -->
-    <div class="header_section">
+    <div class="">
       <div class="header_main">
         <div class="mobile_menu">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="logo_mobile">
+            <!-- <div class="logo_mobile">
               <a href="index.html"><img src="images/logo.png" /></a>
-            </div>
+            </div> -->
             <button
               class="navbar-toggler"
               type="button"
@@ -85,16 +86,41 @@
           </nav>
         </div>
         <div class="container-fluid">
-          <div class="logo">
+          <!-- <div class="logo">
             <a href="index.html"><img src="images/logo.png" /></a>
-          </div>
-          <div class="menu_main">
+          </div> -->
+           <div class="menu_main">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact us</a></li>
+              <!-- <li class="active"><a href="index.html">Home</a></li> -->
+              <li><a href="about.html"
+               style="
+               font-family: 'Comic Sans MS', cursive, sans-serif;
+               font-weight: bold;
+             "
+               >About</a></li>
+              <li><a href="services.html"
+               style="
+               font-family: 'Comic Sans MS', cursive, sans-serif;
+               font-weight: bold;
+             "
+               >Services</a></li>
+              <li><div class="logo">
+               <a href="index.html"
+                 ><img src="images/Logo2.jpg"
+               /></a>
+             </div></li>
+              <li><a href="review.html"
+               style="
+               font-family: 'Comic Sans MS', cursive, sans-serif;
+               font-weight: bold;
+             "
+               >Review</a></li>
+              <li><a href="blog.html"
+               style="
+               font-family: 'Comic Sans MS', cursive, sans-serif;
+               font-weight: bold;
+             "
+               >Blogs</a></li>
             </ul>
           </div>
         </div>
@@ -103,28 +129,123 @@
     <!-- header section end -->
     <!-- services section start -->
     <div class="services_section layout_padding">
+      <div class="blogs-more">
+        <h1 class="top-heading">View More Blogs:</h1>
+        <div class="see-blog">
+          <div class="readmore_bt"><a href="./blog.html">Click Me</a></div>
+        </div>
       <div class="container">
-        <h1 class="services_taital">Services</h1>
-        <p class="services_text">
+        <h1
+          class="services_taital"
+          style="
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-weight: bold;
+          "
+        >
+          Services
+        </h1>
+        <!-- <p class="services_text">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration
-        </p>
-        <div class="services_section_2">
-          <div class="row">
-            <div class="col-md-4">
-              <div><img src="images/img-1.png" class="services_img" /></div>
-              <div class="btn_main"><a href="#">Rafting</a></div>
+        </p> -->
+        <section class="articles">
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://picsum.photos/id/1011/800/450" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>This is some title</h2>
+                <p>
+                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
+                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
+                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                  egestas.
+                </p>
+                <a href="#" class="read-more">
+                  Read more
+                  <span class="sr-only">about this is some title</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="col-md-4">
-              <div><img src="images/img-2.png" class="services_img" /></div>
-              <div class="btn_main active"><a href="#">Hiking</a></div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://picsum.photos/id/1005/800/450" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>This is some title</h2>
+                <p>
+                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
+                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
+                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                  egestas.
+                </p>
+                <a href="#" class="read-more">
+                  Read more
+                  <span class="sr-only">about this is some title</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="col-md-4">
-              <div><img src="images/img-3.png" class="services_img" /></div>
-              <div class="btn_main"><a href="#">Camping</a></div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img src="https://picsum.photos/id/103/800/450" alt="" />
+              </figure>
+              <div class="article-body">
+                <h2>This is some title</h2>
+                <p>
+                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
+                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
+                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                  egestas.
+                </p>
+                <a href="#" class="read-more">
+                  Read more
+                  <span class="sr-only">about this is some title</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
+          </article>
+        </section>
       </div>
     </div>
     <!-- services section end -->
