@@ -1164,3 +1164,6 @@ button {
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+.heading-services {
+  margin-top: 50px;
+}
